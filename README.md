@@ -29,7 +29,7 @@ Fullstack приложение на Yii2 + React для работы с лент
 ### 1. Клонирование репозитория
 
 ```bash
-git clone <repository-url>
+git clone git@github.com:ark1700/itr-test.git
 cd itr-test
 ```
 
@@ -73,9 +73,6 @@ php yii migrate
 ```bash
 # Встроенный PHP сервер
 php yii serve --port=8080
-
-# Или через docker-compose (если настроен)
-docker-compose up -d
 ```
 
 Backend будет доступен по адресу: `http://localhost:8080`
